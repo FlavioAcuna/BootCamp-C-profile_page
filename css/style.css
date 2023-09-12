@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  color: white;
+}
+.active {
+  font-weight: 900;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: 500;
+}
+.navbar button {
+  height: 35px;
+  width: 110px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid black;
+}
+.profile-title {
+  background-color: #17a2b8;
+  height: 125px;
+  margin-bottom: 70px;
+}
+
+.bodyContainer {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.profile {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #999;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+  margin: 20px 0px;
+}
+#user_img {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 190px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.icon-s {
+  height: 20px;
+}
+.card-body {
+  padding: 20px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.education {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #999;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.education-title {
+  background-color: #999;
+  height: 50px;
+}
+.education-title h3 {
+  margin: 0px 15px;
+}
+.education-body {
+  display: flex;
+  flex-direction: column;
+}
+.education-body h3,
+.education-body h5,
+.education-body h6,
+.education-body p {
+  margin: 3px 15px;
+}
+
+.menucontainer {
+  height: 300px;
+  width: 200px;
+  background-color: blue;
+}
