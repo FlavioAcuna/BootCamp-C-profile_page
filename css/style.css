@@ -10,6 +10,7 @@
   justify-content: space-around;
   height: 70px;
   color: white;
+  width: 100%;
 }
 .active {
   font-weight: 900;
@@ -107,4 +108,11 @@
   height: 300px;
   width: 200px;
   background-color: blue;
+  margin-left: 20px;
+}
+#icon-circle {
+  height: 35px;
+}
+.avatar-img {
+  height: 45px;
 }
